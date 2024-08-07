@@ -6,7 +6,7 @@
 .. _phk_trialerror:
 
 =================================================
-Trial&Error - Prototyping - Continous Integration
+Trial&Error - Prototyping - Continuous Integration
 =================================================
 
 The other day I chatted to a friend who wrote his phd thesis with
@@ -39,7 +39,7 @@ themselves.
 
 But we could call it "Prototyping" if that sounded better, and now
 that the history-deficient dot-com generation has "invented" it,
-we can call it "Continous Integration".
+we can call it "Continuous Integration".
 
 I don't care - it's still Trial&Error to me.
 
