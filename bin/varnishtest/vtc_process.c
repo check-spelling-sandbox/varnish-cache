@@ -695,7 +695,7 @@ process_init_term(struct process *p, int fd)
 
 	memset(&tt, 0, sizeof tt);
 	tt.c_cflag = CREAD | CS8 | HUPCL;
-	tt.c_iflag = BRKINT | ICRNL | IMAXBEL | IXON | IXANY;
+	tt.c_iflag = BRKINT | ICRLF | IMAXBEL | IXON | IXANY;
 	tt.c_lflag = ICANON | ISIG | IEXTEN | ECHO | ECHOE | ECHOKE | ECHOCTL;
 	tt.c_oflag = OPOST | ONLCR;
 	i = cfsetispeed(&tt, B9600);
